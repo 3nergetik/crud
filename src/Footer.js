@@ -9,7 +9,7 @@ export default function Footer({callBackFunc}) {
         <div className={'footer'}>
             <span className={'footer_title'}>New notes</span>
             <textarea className={'notes_input'}></textarea>
-            <button onClick={onButtonClick} className={'button_create'}></button>
+            <button onClick={onButtonClick} className={'button_create'}>OK</button>
         </div>
     )
 }

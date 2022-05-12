@@ -7,7 +7,7 @@ export default function Header({callBackFunc}) {
     return (
         <div className={'header'}>
             <span className={'header_title'}>Notes</span>
-            <button onClick={onButtonClick} className={'button_update'}></button>
+            <button onClick={onButtonClick} className={'button_update'}>↻</button>
         </div>
     )
 }
